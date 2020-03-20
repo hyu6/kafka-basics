@@ -14,6 +14,7 @@ public class ProducerDemoKeys {
         Logger logger = LoggerFactory.getLogger(ProducerDemoKeys.class);
 
         String bootstrapServers = "127.0.0.1:9092";
+        String topic = "first_topic";
 
         // create producer properties
         Properties properties = new Properties();
@@ -26,7 +27,6 @@ public class ProducerDemoKeys {
 
         for (int i = 0; i < 10; i++) {
             // create a producer record
-            String topic = "first_topic";
             String value = "message " + i;
             String key = "id_" + i;
 
