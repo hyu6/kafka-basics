@@ -1,4 +1,4 @@
-package com.github.hyu6.kafka.basics;
+package basics;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;

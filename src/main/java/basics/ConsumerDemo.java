@@ -1,4 +1,4 @@
-package com.github.hyu6.kafka.basics;
+package basics;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
