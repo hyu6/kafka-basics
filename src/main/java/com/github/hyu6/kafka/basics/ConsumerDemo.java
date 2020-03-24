@@ -1,4 +1,4 @@
-package com.github.hyu6.kafka.simple;
+package com.github.hyu6.kafka.basics;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
@@ -12,13 +12,13 @@ import java.time.Duration;
 import java.util.Collections;
 import java.util.Properties;
 
-public class ConsumerDemoGroups {
+public class ConsumerDemo {
     public static void main(String[] args) {
 
-        Logger logger = LoggerFactory.getLogger(ConsumerDemoGroups.class.getName());
+        Logger logger = LoggerFactory.getLogger(ConsumerDemo.class.getName());
 
         String bootstrapServers = "127.0.0.1:9092";
-        String groupId = "second-application";
+        String groupId = "first-application";
         String topic = "first_topic";
 
         // create consumer configs
