@@ -1,1 +1,1 @@
-# kafka-simple
+# kafka-basics
